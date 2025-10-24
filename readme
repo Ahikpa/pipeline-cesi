@@ -26,10 +26,6 @@ Le pipeline complet a été intégré et déployé dans une application web inte
 - **Application Web & Déploiement** :  
   - Streamlit  
 
-## Installation  
-```bash
-git clone <url-du-répo>
-cd nom-du-projet
-pip install -r requirements.txt
+
 
 # NB: pour tester le projet il faudra changer le path des poids et des modèles 
