@@ -1,0 +1,41 @@
+---
+
+
+
+Titre du Projet
+
+Pipeline Complet d'Analyse et de Description Automatique d'Images
+
+Description
+
+Conception et développement d'un pipeline de Deep Learning de bout en bout capable de traiter et d'analyser des images
+numérisées. Le projet réalise trois tâches successives :
+
+1.  Classification d'images (Photo / Non-Photo) via un modèle basé sur le transfert d'apprentissage.
+2.  Amélioration de la qualité par débruitage à l'aide d'un auto-encodeur de type U-Net.
+3.  Génération de légendes descriptives en langage naturel grâce à une architecture Encodeur-Décodeur (CNN+RNN) avec
+    mécanisme d'attention.
+
+Le pipeline complet a été intégré et déployé dans une application web interactive pour la démonstration.
+
+Compétences & Technologies Mises en Œuvre
+
+- Langage : Python
+- Machine Learning / Deep Learning :
+  - Frameworks : TensorFlow, Keras
+  - Architectures :
+    - Réseaux de Neurones Convolutifs (CNN)
+    - Apprentissage par Transfert (Transfer Learning) avec MobileNetV2
+    - Auto-encodeurs de type U-Net
+    - Réseaux de Neurones Récurrents (GRU)
+    - Mécanismes d'Attention (Bahdanau)
+- Science des Données & Traitement d'Image :
+  - Scikit-learn (évaluation de modèles, métriques)
+  - NumPy, Pandas (manipulation de données)
+  - Pillow, OpenCV (traitement d'images)
+  - Matplotlib, Seaborn (visualisation)
+- Application Web & Déploiement :
+  - Streamlit
+
+---
+NB: pour tester le projet il faudra changer le path des poids et des modèles 
