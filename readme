@@ -26,6 +26,9 @@ Le pipeline complet a été intégré et déployé dans une application web inte
 - **Application Web & Déploiement** :  
   - Streamlit  
 
-
-
 # NB: pour tester le projet il faudra changer le path des poids et des modèles 
+-commande pour installer et lancer streamlit 
+pip install streamlit
+streamlit run app.py
+
+
